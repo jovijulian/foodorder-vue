@@ -17,6 +17,91 @@
           <CardProduct :product="product" />
         </div>
       </div>
+      <div class="row mt-4">
+        <div class="col-lg-12 text-center">
+          <h2><strong>About Us</strong></h2>
+        </div>
+        <div class="col-lg-12 text-center">
+          <img :src="'../assets/images/logo-cute.png'" class="img-fluid shadow" />
+        </div>
+        <div class="col-lg-12 text-center mt-5">
+          <p>Kue CUTE merupakan singkatan dari Kue cubit tete atau Teng Teng, Teng Teng diambil dari jajan tradisional lainnya kemasan atau packagingnya dengan cara menenteng membawa nya .</p>
+        </div>
+        <div class="col-lg-12 text-center mt-5">
+          <img :src="'../assets/images/foto-2.jpeg'" class="img-fluid shadow" />
+        </div>
+        <div class="col-lg-12 mt-5 text-center">
+          <div class="table-responsive">
+            <h3>Anggota Kami</h3>
+            <table class="table table-borderless" style="width: 90%">
+              <tr>
+                <td>Alifudin Nuryansyah Putra</td>
+                <td>3MI-1</td>
+                <td>200613013</td>
+              </tr>
+              <tr>
+                <td>Dera Akbar</td>
+                <td>3MI-1</td>
+                <td>200613016</td>
+              </tr>
+              <tr>
+                <td>Jovi Julian Hendri</td>
+                <td>3MI-1</td>
+                <td>200613007</td>
+              </tr>
+              <tr>
+                <td>Naufal Ramadhani</td>
+                <td>3MI-1</td>
+                <td>200613014</td>
+              </tr>
+              <tr>
+                <td>Muhamad Dikha Priangga</td>
+                <td>3MI-1</td>
+                <td>200613003</td>
+              </tr>
+              <tr>
+                <td>Mochamad Rafli Djamhuri</td>
+                <td>3MI-1</td>
+                <td>200613005</td>
+              </tr>
+              <tr>
+                <td>Raden Azriel mochamad yusuf</td>
+                <td>3MI-1</td>
+                <td>200613001</td>
+              </tr>
+              <tr>
+                <td>Ryan Budiawan</td>
+                <td>3MI-1</td>
+                <td>200613008</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-lg-12 text-center">
+          <h2><strong>Galery</strong></h2>
+        </div>
+        <div class="col-lg-4 text-center mt-5">
+          <img :src="'../assets/images/foto-1.jpeg'" class="img-fluid shadow" />
+        </div>
+        <div class="col-lg-4 text-center mt-5">
+          <img :src="'../assets/images/foto-3.jpg'" class="img-fluid shadow" />
+        </div>
+        <div class="col-lg-4 text-center mt-5">
+          <img :src="'../assets/images/foto-4.jpeg'" class="img-fluid shadow" />
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-lg-12 text-center">
+          <h2><strong>Video Kami</strong></h2>
+        </div>
+        <div class="col-lg-12 text-center mt-5">
+          <video width="1000" controls>
+            <source :src="'../assets/images/video-cute.mp4'" type="video/mp4" />
+          </video>
+        </div>
+      </div>
     </div>
   </div>
 </template>

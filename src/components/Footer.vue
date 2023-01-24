@@ -4,7 +4,7 @@
       <hr />
       <div class="container">
         <div class="row">
-          <div class="col text-center">2022 Copyright Jovi Julian</div>
+          <div class="col text-center">2023 Copyright Jovi Julian</div>
         </div>
       </div>
     </div>
