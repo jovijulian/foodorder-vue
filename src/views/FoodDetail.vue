@@ -33,7 +33,7 @@
             </div>
             <div class="form-group">
               <label for="keterangan">Keterangan</label>
-              <textarea class="form-control" placeholder="Keterangan seperti: Pedas, Nasi Setengah" v-model="pesan.keterangan"></textarea>
+              <textarea class="form-control" placeholder="Topping seperti: Oreo, Keju, Matang / Setengah matang" v-model="pesan.keterangan"></textarea>
             </div>
             <button type="submit" class="btn btn-success" @click="pemesanan"><i class="bi bi-cart"></i> Pesan</button>
           </form>

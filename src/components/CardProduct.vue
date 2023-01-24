@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <img :src="require(`../assets/images/${product.gambar}`)" class="card-img-top" alt="..." />
+    <img :src="'../assets/images/' + product.gambar" class="card-img-top" alt="..." />
     <div class="card-body">
       <h5 class="card-title">
         <strong>{{ product.nama }}</strong>

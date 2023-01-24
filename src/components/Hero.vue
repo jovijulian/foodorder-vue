@@ -37,7 +37,7 @@
                 <strong>Delicious Food Menu, </strong> <br />
                 in Your Gadget
               </h2>
-              <p>Pilih makanan favoritmu!</p>
+              <p>Pilih Kue CuTe favoritmu!</p>
               <router-link to="" class="btn btn-lg btn-success"><i class="bi bi-arrow-right"></i> Pesan</router-link>
             </div>
           </div>

@@ -5,7 +5,8 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <router-link class="navbar-brand" to="/"><strong>RM. Padang Tanpa Nama</strong></router-link>
+        <!-- <router-link class="navbar-brand" to="/"><strong>RM. Padang Tanpa Nama</strong></router-link> -->
+        <router-link class="navbar-brand" to="/"><strong>Kue CUTE</strong></router-link>
         <!-- <a class="navbar-brand" href="#"><strong>RM. Padang Tanpa Nama</strong></a> -->
         <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">

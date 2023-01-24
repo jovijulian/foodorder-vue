@@ -64,7 +64,7 @@
               <input type="text" class="form-control" v-model="pesan.nama" />
             </div>
             <div class="form-group">
-              <label for="meja">Nomor Meja: </label>
+              <label for="meja">Nomor Whatsapp: </label>
               <input type="text" class="form-control" v-model="pesan.noMeja" />
             </div>
             <button type="submit" class="btn btn-success float-right" @click="checkout"><i class="bi bi-cart"></i> Checkout</button>
@@ -98,9 +98,6 @@ export default {
           position: "top-right",
           duration: 3000,
           dismissible: true,
-        });
-        axios.get("http://localhost:3000/keranjangs").then((response) => {
-          this.setKeranjangs(response.data);
         });
       });
     },
